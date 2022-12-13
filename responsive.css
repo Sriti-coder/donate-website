@@ -1,0 +1,104 @@
+@media (min-width: 768px) and (max-width: 991px) {
+/* banner */
+.banner-content {
+	height: calc(50vh - 160px);
+}
+.banner-area {
+	height: 50vh;
+}
+.banner-content p {
+	font-size: 15px;
+}
+.plan-body {
+	display: block;
+}
+.Volunteers-body {
+	grid-template-columns: repeat(2,1fr);
+}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .banner-content h2 {
+        font-size: 17px;
+    }
+    .banner-area {
+        height: 40vh;
+    }
+    .banner-content {
+        height: calc(47vh - 160px);
+    }
+    .banner-content p {
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .donate-body {
+        display: block;
+    }
+    .single-donate {
+        margin-bottom: 12px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+    }
+    .section-title p {
+        font-size: 14px;
+    }
+    .plan-body {
+        display: block;
+    }
+    .single-body-1 {
+        margin: 0;
+    }
+    .container {
+        padding: 0 50px;
+    }
+    .single-body-1 h2 {
+        font-size: 17px;
+    }
+    .single-body-1 p {
+        font-size: 12px;
+    }
+    .single-body-1 {
+        padding: 17px 14px;
+        text-align: center;
+    }
+    .single-body-2 {
+        margin: 0;
+    }
+    .single-body-2 h2 {
+        font-size: 17px;
+    }
+    .single-body-2 p {
+        font-size: 12px;
+    }
+    .single-body-2 {
+        padding: 17px 14px;
+        text-align: center;
+    }
+    .single-body-3 h2 {
+        font-size: 17px;
+    }
+    .single-body-3 p {
+        font-size: 12px;
+    }
+    .single-body-3 {
+        padding: 17px 14px;
+        margin: 0;
+        text-align: center;
+    }
+    .Volunteers-body {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .email {
+        display: block;
+        margin: 0 auto;
+        width: 46%;
+        margin-bottom: 20px;
+    }
+}
